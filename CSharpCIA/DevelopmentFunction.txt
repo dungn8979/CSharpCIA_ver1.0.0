@@ -1,0 +1,29 @@
+﻿> Development deep property, field nodes
+	- Developed:
+		RootNode
+		Namespace (lack Usings)
+	- Undeveloped:
+		ClassNode
+		FieldNode
+		PropertyNode
+		MethodNode
+> Add more Node in list member of a namespace
+	- Lack
+		EnumNode
+		StructNode
+		DelegateNode
+> Setup Modifiers
+> Setup Connection
+> Setup Binding Node together: use BindingName
+> Make CS Tree
+> Create API Export Json file
+
+> Create API Compare two version: use IsEquivalentTo of Roslyn
+	- comment change -> version change
+	- insert a space -> version change
+
+> Add test case:
+	- test case 1 hàm gọi 2 hàm cùng tên overloading
+	# Xử lý được
+
+> Parse Constructor với quan hệ INVOKE
